@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #0652DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+     /* Vertically */
+    justify-content: center; 
+    /* Horizontaly */
+    width: 1000px;
+    margin: 10px;
+    
+    font-size: 40px;
+    color: white;
+}
+ 
+#search {
+   font-size: 25px;
+   padding: 18px;
+   border-radius: 35px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px grey;
+}
